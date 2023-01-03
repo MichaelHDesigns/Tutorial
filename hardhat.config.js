@@ -18,15 +18,15 @@ module.exports = {
       chainId: 2330
     },
     mumbai: {
-      url: `https://rpc0.altcoinchain.org/rpc`,
+      url: "https://rpc0.altcoinchain.org/rpc",
       accounts: [process.env.REACT_APP_PRIVATE_KEY],
       gas: 30000000,
       gasPrice: 7000000000
     },
-    matic: {
-      url: "https://polygon-mainnet.g.alchemy.com/v2/nAhiCHKvZkhkp4A7PkkCIBON0-BXW26d",
+ //   matic: {
+//      url: "https://polygon-mainnet.g.alchemy.com/v2/nAhiCHKvZkhkp4A7PkkCIBON0-BXW26d",
       //accounts: [process.env.privateKey]
-    },
+//    },
    // goerli: {
   //   url: "https://rpc0.altcoinchain.org/rpc",
   //    accounts: [ process.env.REACT_APP_PRIVATE_KEY ]
