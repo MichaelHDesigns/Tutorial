@@ -15,7 +15,7 @@ module.exports = {
   defaultNetwork: "hardhat",
   networks: {
     hardhat: {
-      chainId: 1337
+      chainId: 2330
     },
     mumbai: {
       url: `https://polygon-mumbai.g.alchemy.com/v2/nAhiCHKvZkhkp4A7PkkCIBON0-BXW26d`,
@@ -26,7 +26,7 @@ module.exports = {
       //accounts: [process.env.privateKey]
     },
     goerli: {
-      url: process.env.REACT_APP_ALCHEMY_API_URL,
+      url: 'https://rpc0.altcoinchain.org/rpc',
       accounts: [ process.env.REACT_APP_PRIVATE_KEY ]
     }
   },
