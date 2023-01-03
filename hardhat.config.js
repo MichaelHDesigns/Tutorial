@@ -26,7 +26,7 @@ module.exports = {
       //accounts: [process.env.privateKey]
     },
     goerli: {
-      url: 'https://rpc0.altcoinchain.org/rpc',
+      url: "https://rpc0.altcoinchain.org/rpc",
       accounts: [ process.env.REACT_APP_PRIVATE_KEY ]
     }
   },
